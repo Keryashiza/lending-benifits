@@ -1,3 +1,5 @@
+@import './font.scss';
+
 @import 'block/container.scss';
 @import 'block/button.scss';
 @import 'block/header.scss';
@@ -36,7 +38,7 @@ html,body{
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
-
+	font-family: 'Roboto';
 }
 input,button,textarea{font-family:inherit;}
 
